@@ -8,6 +8,7 @@ font-family: sans-serif;
 :root{
     --space-m: 350px;
     --space-l: 400px; 
+    --border: 2px dashed black;
 
 }
 
@@ -35,7 +36,7 @@ font-family: sans-serif;
     background-color: orange; 
     width: 30%; 
     min-height: 30px;
-    border: 2px dashed black;  
+    border: var(--border);  
     padding: 3px;
    
     
@@ -50,7 +51,7 @@ font-family: sans-serif;
     list-style-type: none; 
     align-items: center; 
     background-color: orange; 
-    border: 2px dashed black;
+    border: var(--border);
     width: 60%; 
     min-height: 30px; 
     
@@ -82,7 +83,7 @@ a{
     height:var(--space-m); 
     width: 50%;
     margin: 0 auto;
-    border: 2px dashed black; 
+    border: var(--border); 
     background-color: pink; 
     padding-top: 25px;
     
@@ -101,14 +102,14 @@ a{
     width: 70%; 
     height: var(--space-m);
     background-color: aqua;
-    border: 2px dashed black;
+    border: var(--border);
  } 
 
  .smal-container{
     width: 30%;
     min-height: var(--space-m);
     background-color: fuchsia;
-    border: 2px dashed black;
+    border: var(--border);
  } 
 
  .mid{
@@ -130,7 +131,7 @@ a{
     width: 100%;
     min-height: var( --space-l);
     background-color: greenyellow;
-    border: 2px dashed black;
+    border: var(--border);
  } 
 
 footer{
@@ -152,7 +153,7 @@ footer{
     width: 30%;
     min-height: var(--space-m); 
     background-color: salmon;
-    border: 2px dashed black;
+    border: var(--border);
 } 
 
 .column-small{
@@ -184,6 +185,6 @@ span{
      
     background-color: salmon;
     min-height: 20px;  
-    border: 2px dashed black;
+    border: var(--border);
     
 }
