@@ -148,4 +148,29 @@ footer{
     height: 350px;
     background-color: aquamarine; 
     border: 2px dashed white;
+} 
+hr{
+    color: white;
+} 
+footer{
+    background-color: black; 
+    padding-top: 15px;
+} 
+.end{
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: aqua; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} 
+span{
+    display: block;
+     padding: 2px;
+    background-color: salmon;
+    height: 20px;  
+    border: 2px dashed black;
+    
 }
