@@ -5,7 +5,13 @@ padding: 0;
 font-family: sans-serif; 
 } 
 
-/*utilities*/ 
+:root{
+    --space-m: 350px;
+    --space-l: 400px; 
+
+}
+
+/*header*/  
  
 .main-header{
     background-color: lightskyblue; 
@@ -66,14 +72,14 @@ a{
  /*section part*/
 
  .section-header{
-    height: 400px; 
+    height: var( --space-l); 
     background-color: blue; 
     display: flex;
     align-items: center;
  } 
 
  .info{
-    height: 350px; 
+    height:var(--space-m); 
     width: 50%;
     margin: 0 auto;
     border: 2px dashed black; 
@@ -86,21 +92,21 @@ a{
     width: 70%; 
     margin: 0 auto;
     display: flex;
-    min-height: 400px; 
+    min-height: var( --space-l); 
     flex-direction: row-reverse;
     margin-top: 30px;
  } 
 
  .big-container{
     width: 70%; 
-    height: 350px;
+    height: var(--space-m);
     background-color: aqua;
     border: 2px dashed black;
  } 
 
  .smal-container{
     width: 30%;
-    min-height: 350px;
+    min-height: var(--space-m);
     background-color: fuchsia;
     border: 2px dashed black;
  } 
@@ -122,7 +128,7 @@ a{
 
  .green-container{
     width: 100%;
-    min-height: 400px;
+    min-height: var( --space-l);
     background-color: greenyellow;
     border: 2px dashed black;
  } 
@@ -137,21 +143,21 @@ footer{
 .bottom-nav{
     display: flex;
     width: 70%; 
-    min-height: 400px; 
+    min-height: var( --space-l); 
     margin: 0 auto; 
     padding-top: 15px;
 } 
  
 .column-big{
     width: 30%;
-    min-height: 350px; 
+    min-height: var(--space-m); 
     background-color: salmon;
     border: 2px dashed black;
 } 
 
 .column-small{
     width: calc(70% / 4); 
-    min-height: 350px;
+    min-height: var(--space-m);
     background-color: aquamarine; 
     border: 2px dashed white;
 } 
